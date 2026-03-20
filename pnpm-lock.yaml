@@ -11,6 +11,10 @@ overrides:
 importers:
 
   .:
+    dependencies:
+      '@babylonjs/core':
+        specifier: ^8.56.0
+        version: 8.56.0
     devDependencies:
       typescript:
         specifier: ~5.9.3
@@ -23,6 +27,9 @@ importers:
         version: 0.1.12(@voidzero-dev/vite-plus-core@0.1.12(typescript@5.9.3))(typescript@5.9.3)
 
 packages:
+
+  '@babylonjs/core@8.56.0':
+    resolution: {integrity: sha512-QD2OZ5SCp7hDYk7SNsmYimkNJbOOfDczPaTfEpFRezC/Bvi5zC14NmZN1/gCpGLW/jmqIXAzOdtRv25jufMGpQ==}
 
   '@oxc-project/runtime@0.115.0':
     resolution: {integrity: sha512-Rg8Wlt5dCbXhQnsXPrkOjL1DTSvXLgb2R/KYfnf1/K+R0k6UMLEmbQXPM+kwrWqSmWA2t0B1EtHy2/3zikQpvQ==}
@@ -670,6 +677,8 @@ packages:
         optional: true
 
 snapshots:
+
+  '@babylonjs/core@8.56.0': {}
 
   '@oxc-project/runtime@0.115.0': {}
 
