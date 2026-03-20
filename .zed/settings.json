@@ -1,12 +1,12 @@
 {
   "formatter": {
     "language_server": {
-      "name": "oxfmt",
-    },
+      "name": "oxfmt"
+    }
   },
   "format_on_save": "on",
   "prettier": {
-    "allowed": false,
+    "allowed": false
   },
-  "language_servers": ["!eslint", "..."],
+  "language_servers": ["!eslint", "..."]
 }
